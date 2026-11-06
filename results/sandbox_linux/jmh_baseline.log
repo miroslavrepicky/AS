@@ -1,0 +1,499 @@
+# JMH version: ${project.version}
+# VM version: JDK 21.0.12.1, OpenJDK 64-Bit Server VM, 21.0.12.1+1-1-24.04.4-Ubuntu
+# VM invoker: /usr/lib/jvm/java-21-openjdk-amd64/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: sk.add.bench.BaselineBenchmark.calculate
+# Parameters: (variant = A)
+
+# Run progress: 0.00% complete, ETA 00:00:48
+# Fork: 1 of 1
+# Warmup Iteration   1: 20.575 ns/op
+# Warmup Iteration   2: 20.177 ns/op
+# Warmup Iteration   3: 19.918 ns/op
+Iteration   1: 22.873 ns/op
+Iteration   2: 20.964 ns/op
+Iteration   3: 22.698 ns/op
+
+
+Result "sk.add.bench.BaselineBenchmark.calculate":
+  22.179 ±(99.9%) 19.252 ns/op [Average]
+  (min, avg, max) = (20.964, 22.179, 22.873), stdev = 1.055
+  CI (99.9%): [2.927, 41.431] (assumes normal distribution)
+
+
+# JMH version: ${project.version}
+# VM version: JDK 21.0.12.1, OpenJDK 64-Bit Server VM, 21.0.12.1+1-1-24.04.4-Ubuntu
+# VM invoker: /usr/lib/jvm/java-21-openjdk-amd64/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: sk.add.bench.BaselineBenchmark.calculate
+# Parameters: (variant = B)
+
+# Run progress: 12.50% complete, ETA 00:00:46
+# Fork: 1 of 1
+# Warmup Iteration   1: 18.668 ns/op
+# Warmup Iteration   2: 18.876 ns/op
+# Warmup Iteration   3: 16.721 ns/op
+Iteration   1: 18.147 ns/op
+Iteration   2: 17.811 ns/op
+Iteration   3: 17.844 ns/op
+
+
+Result "sk.add.bench.BaselineBenchmark.calculate":
+  17.934 ±(99.9%) 3.378 ns/op [Average]
+  (min, avg, max) = (17.811, 17.934, 18.147), stdev = 0.185
+  CI (99.9%): [14.556, 21.312] (assumes normal distribution)
+
+
+# JMH version: ${project.version}
+# VM version: JDK 21.0.12.1, OpenJDK 64-Bit Server VM, 21.0.12.1+1-1-24.04.4-Ubuntu
+# VM invoker: /usr/lib/jvm/java-21-openjdk-amd64/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: sk.add.bench.BaselineBenchmark.calculate
+# Parameters: (variant = C)
+
+# Run progress: 25.00% complete, ETA 00:00:39
+# Fork: 1 of 1
+# Warmup Iteration   1: 18.015 ns/op
+# Warmup Iteration   2: 19.668 ns/op
+# Warmup Iteration   3: 19.041 ns/op
+Iteration   1: 16.678 ns/op
+Iteration   2: 18.149 ns/op
+Iteration   3: 16.078 ns/op
+
+
+Result "sk.add.bench.BaselineBenchmark.calculate":
+  16.968 ±(99.9%) 19.441 ns/op [Average]
+  (min, avg, max) = (16.078, 16.968, 18.149), stdev = 1.066
+  CI (99.9%): [≈ 0, 36.409] (assumes normal distribution)
+
+
+# JMH version: ${project.version}
+# VM version: JDK 21.0.12.1, OpenJDK 64-Bit Server VM, 21.0.12.1+1-1-24.04.4-Ubuntu
+# VM invoker: /usr/lib/jvm/java-21-openjdk-amd64/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: sk.add.bench.BaselineBenchmark.calculate
+# Parameters: (variant = D)
+
+# Run progress: 37.50% complete, ETA 00:00:33
+# Fork: 1 of 1
+# Warmup Iteration   1: 41.168 ns/op
+# Warmup Iteration   2: 44.373 ns/op
+# Warmup Iteration   3: 34.913 ns/op
+Iteration   1: 35.855 ns/op
+Iteration   2: 30.630 ns/op
+Iteration   3: 43.067 ns/op
+
+
+Result "sk.add.bench.BaselineBenchmark.calculate":
+  36.517 ±(99.9%) 113.928 ns/op [Average]
+  (min, avg, max) = (30.630, 36.517, 43.067), stdev = 6.245
+  CI (99.9%): [≈ 0, 150.445] (assumes normal distribution)
+
+
+# JMH version: ${project.version}
+# VM version: JDK 21.0.12.1, OpenJDK 64-Bit Server VM, 21.0.12.1+1-1-24.04.4-Ubuntu
+# VM invoker: /usr/lib/jvm/java-21-openjdk-amd64/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Sampling time
+# Benchmark: sk.add.bench.BaselineBenchmark.calculate
+# Parameters: (variant = A)
+
+# Run progress: 50.00% complete, ETA 00:00:26
+# Fork: 1 of 1
+# Warmup Iteration   1: 641.129 ±(99.9%) 975.120 ns/op
+# Warmup Iteration   2: 1301.128 ±(99.9%) 2991.094 ns/op
+# Warmup Iteration   3: 927.882 ±(99.9%) 1892.189 ns/op
+Iteration   1: 214.522 ±(99.9%) 316.637 ns/op
+                 p0.00:   38.000 ns/op
+                 p0.50:   55.000 ns/op
+                 p0.90:   87.000 ns/op
+                 p0.95:   108.000 ns/op
+                 p0.99:   189.400 ns/op
+                 p0.999:  10437.760 ns/op
+                 p0.9999: 55844.096 ns/op
+                 p1.00:   3719168.000 ns/op
+
+Iteration   2: 187.880 ±(99.9%) 418.318 ns/op
+                 p0.00:   37.000 ns/op
+                 p0.50:   44.000 ns/op
+                 p0.90:   52.000 ns/op
+                 p0.95:   61.000 ns/op
+                 p0.99:   109.000 ns/op
+                 p0.999:  4088.160 ns/op
+                 p0.9999: 34080.256 ns/op
+                 p1.00:   3690496.000 ns/op
+
+Iteration   3: 1085.485 ±(99.9%) 2182.284 ns/op
+                 p0.00:   44.000 ns/op
+                 p0.50:   55.000 ns/op
+                 p0.90:   76.000 ns/op
+                 p0.95:   83.000 ns/op
+                 p0.99:   141.000 ns/op
+                 p0.999:  11865.344 ns/op
+                 p0.9999: 4050773.606 ns/op
+                 p1.00:   12042240.000 ns/op
+
+
+
+Result "sk.add.bench.BaselineBenchmark.calculate":
+  N = 89001
+  mean =    402.557 ±(99.9%) 530.712 ns/op
+
+  Histogram, ns/op:
+    [       0.000,  1250000.000) = 88996 
+    [ 1250000.000,  2500000.000) = 0 
+    [ 2500000.000,  3750000.000) = 2 
+    [ 3750000.000,  5000000.000) = 2 
+    [ 5000000.000,  6250000.000) = 0 
+    [ 6250000.000,  7500000.000) = 0 
+    [ 7500000.000,  8750000.000) = 0 
+    [ 8750000.000, 10000000.000) = 0 
+    [10000000.000, 11250000.000) = 0 
+    [11250000.000, 12500000.000) = 1 
+    [12500000.000, 13750000.000) = 0 
+    [13750000.000, 15000000.000) = 0 
+    [15000000.000, 16250000.000) = 0 
+    [16250000.000, 17500000.000) = 0 
+    [17500000.000, 18750000.000) = 0 
+
+  Percentiles, ns/op:
+      p(0.0000) =     37.000 ns/op
+     p(50.0000) =     51.000 ns/op
+     p(90.0000) =     72.000 ns/op
+     p(95.0000) =     98.000 ns/op
+     p(99.0000) =    141.000 ns/op
+     p(99.9000) =   7895.904 ns/op
+     p(99.9900) =  52959.424 ns/op
+     p(99.9990) = 12042240.000 ns/op
+     p(99.9999) = 12042240.000 ns/op
+    p(100.0000) = 12042240.000 ns/op
+
+
+# JMH version: ${project.version}
+# VM version: JDK 21.0.12.1, OpenJDK 64-Bit Server VM, 21.0.12.1+1-1-24.04.4-Ubuntu
+# VM invoker: /usr/lib/jvm/java-21-openjdk-amd64/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Sampling time
+# Benchmark: sk.add.bench.BaselineBenchmark.calculate
+# Parameters: (variant = B)
+
+# Run progress: 62.50% complete, ETA 00:00:19
+# Fork: 1 of 1
+# Warmup Iteration   1: 712.918 ±(99.9%) 836.722 ns/op
+# Warmup Iteration   2: 85.935 ±(99.9%) 24.787 ns/op
+# Warmup Iteration   3: 1239.797 ±(99.9%) 1979.884 ns/op
+Iteration   1: 155.607 ±(99.9%) 237.113 ns/op
+                 p0.00:   39.000 ns/op
+                 p0.50:   50.000 ns/op
+                 p0.90:   64.000 ns/op
+                 p0.95:   88.000 ns/op
+                 p0.99:   154.740 ns/op
+                 p0.999:  5899.968 ns/op
+                 p0.9999: 38467.392 ns/op
+                 p1.00:   1771520.000 ns/op
+
+Iteration   2: 227.430 ±(99.9%) 381.889 ns/op
+                 p0.00:   37.000 ns/op
+                 p0.50:   51.000 ns/op
+                 p0.90:   55.000 ns/op
+                 p0.95:   56.000 ns/op
+                 p0.99:   63.000 ns/op
+                 p0.999:  3632.996 ns/op
+                 p0.9999: 395490.995 ns/op
+                 p1.00:   2748416.000 ns/op
+
+Iteration   3: 564.087 ±(99.9%) 1218.925 ns/op
+                 p0.00:   38.000 ns/op
+                 p0.50:   53.000 ns/op
+                 p0.90:   56.000 ns/op
+                 p0.95:   57.000 ns/op
+                 p0.99:   65.000 ns/op
+                 p0.999:  3524.000 ns/op
+                 p0.9999: 1410304.000 ns/op
+                 p1.00:   9142272.000 ns/op
+
+
+
+Result "sk.add.bench.BaselineBenchmark.calculate":
+  N = 79450
+  mean =    319.573 ±(99.9%) 441.406 ns/op
+
+  Histogram, ns/op:
+    [       0.000,  1000000.000) = 79445 
+    [ 1000000.000,  2000000.000) = 2 
+    [ 2000000.000,  3000000.000) = 1 
+    [ 3000000.000,  4000000.000) = 0 
+    [ 4000000.000,  5000000.000) = 1 
+    [ 5000000.000,  6000000.000) = 0 
+    [ 6000000.000,  7000000.000) = 0 
+    [ 7000000.000,  8000000.000) = 0 
+    [ 8000000.000,  9000000.000) = 0 
+
+  Percentiles, ns/op:
+      p(0.0000) =     37.000 ns/op
+     p(50.0000) =     51.000 ns/op
+     p(90.0000) =     56.000 ns/op
+     p(95.0000) =     59.000 ns/op
+     p(99.0000) =    102.000 ns/op
+     p(99.9000) =   4145.096 ns/op
+     p(99.9900) =  35533.792 ns/op
+     p(99.9990) = 9142272.000 ns/op
+     p(99.9999) = 9142272.000 ns/op
+    p(100.0000) = 9142272.000 ns/op
+
+
+# JMH version: ${project.version}
+# VM version: JDK 21.0.12.1, OpenJDK 64-Bit Server VM, 21.0.12.1+1-1-24.04.4-Ubuntu
+# VM invoker: /usr/lib/jvm/java-21-openjdk-amd64/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Sampling time
+# Benchmark: sk.add.bench.BaselineBenchmark.calculate
+# Parameters: (variant = C)
+
+# Run progress: 75.00% complete, ETA 00:00:13
+# Fork: 1 of 1
+# Warmup Iteration   1: 727.313 ±(99.9%) 1110.721 ns/op
+# Warmup Iteration   2: 441.149 ±(99.9%) 753.066 ns/op
+# Warmup Iteration   3: 49.799 ±(99.9%) 6.428 ns/op
+Iteration   1: 126.034 ±(99.9%) 150.674 ns/op
+                 p0.00:   34.000 ns/op
+                 p0.50:   48.000 ns/op
+                 p0.90:   65.000 ns/op
+                 p0.95:   68.000 ns/op
+                 p0.99:   83.000 ns/op
+                 p0.999:  4715.560 ns/op
+                 p0.9999: 198027.546 ns/op
+                 p1.00:   1165312.000 ns/op
+
+Iteration   2: 401.339 ±(99.9%) 675.103 ns/op
+                 p0.00:   34.000 ns/op
+                 p0.50:   46.000 ns/op
+                 p0.90:   52.000 ns/op
+                 p0.95:   58.000 ns/op
+                 p0.99:   71.000 ns/op
+                 p0.999:  3502.904 ns/op
+                 p0.9999: 2373939.610 ns/op
+                 p1.00:   4046848.000 ns/op
+
+Iteration   3: 297.373 ±(99.9%) 736.893 ns/op
+                 p0.00:   41.000 ns/op
+                 p0.50:   51.000 ns/op
+                 p0.90:   57.000 ns/op
+                 p0.95:   64.000 ns/op
+                 p0.99:   94.690 ns/op
+                 p0.999:  6332.008 ns/op
+                 p0.9999: 43425.696 ns/op
+                 p1.00:   5693440.000 ns/op
+
+
+
+Result "sk.add.bench.BaselineBenchmark.calculate":
+  N = 78497
+  mean =    275.383 ±(99.9%) 335.376 ns/op
+
+  Histogram, ns/op:
+    [      0.000,  500000.000) = 78492 
+    [ 500000.000, 1000000.000) = 0 
+    [1000000.000, 1500000.000) = 1 
+    [1500000.000, 2000000.000) = 0 
+    [2000000.000, 2500000.000) = 1 
+    [2500000.000, 3000000.000) = 0 
+    [3000000.000, 3500000.000) = 1 
+    [3500000.000, 4000000.000) = 0 
+    [4000000.000, 4500000.000) = 1 
+    [4500000.000, 5000000.000) = 0 
+    [5000000.000, 5500000.000) = 0 
+
+  Percentiles, ns/op:
+      p(0.0000) =     34.000 ns/op
+     p(50.0000) =     49.000 ns/op
+     p(90.0000) =     60.000 ns/op
+     p(95.0000) =     65.000 ns/op
+     p(99.0000) =     80.000 ns/op
+     p(99.9000) =   4564.144 ns/op
+     p(99.9900) =  68437.542 ns/op
+     p(99.9990) = 5693440.000 ns/op
+     p(99.9999) = 5693440.000 ns/op
+    p(100.0000) = 5693440.000 ns/op
+
+
+# JMH version: ${project.version}
+# VM version: JDK 21.0.12.1, OpenJDK 64-Bit Server VM, 21.0.12.1+1-1-24.04.4-Ubuntu
+# VM invoker: /usr/lib/jvm/java-21-openjdk-amd64/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Sampling time
+# Benchmark: sk.add.bench.BaselineBenchmark.calculate
+# Parameters: (variant = D)
+
+# Run progress: 87.50% complete, ETA 00:00:06
+# Fork: 1 of 1
+# Warmup Iteration   1: 761.898 ±(99.9%) 749.685 ns/op
+# Warmup Iteration   2: 802.547 ±(99.9%) 1607.413 ns/op
+# Warmup Iteration   3: 220.091 ±(99.9%) 430.944 ns/op
+Iteration   1: 133.056 ±(99.9%) 158.784 ns/op
+                 p0.00:   44.000 ns/op
+                 p0.50:   58.000 ns/op
+                 p0.90:   70.000 ns/op
+                 p0.95:   94.000 ns/op
+                 p0.99:   168.000 ns/op
+                 p0.999:  5630.208 ns/op
+                 p0.9999: 56118.989 ns/op
+                 p1.00:   1546240.000 ns/op
+
+Iteration   2: 166.050 ±(99.9%) 182.105 ns/op
+                 p0.00:   51.000 ns/op
+                 p0.50:   62.000 ns/op
+                 p0.90:   106.000 ns/op
+                 p0.95:   146.000 ns/op
+                 p0.99:   281.010 ns/op
+                 p0.999:  6174.432 ns/op
+                 p0.9999: 81636.448 ns/op
+                 p1.00:   1470464.000 ns/op
+
+Iteration   3: 568.498 ±(99.9%) 1199.480 ns/op
+                 p0.00:   51.000 ns/op
+                 p0.50:   77.000 ns/op
+                 p0.90:   144.000 ns/op
+                 p0.95:   167.000 ns/op
+                 p0.99:   306.800 ns/op
+                 p0.999:  13281.280 ns/op
+                 p0.9999: 1543481.856 ns/op
+                 p1.00:   7299072.000 ns/op
+
+
+
+Result "sk.add.bench.BaselineBenchmark.calculate":
+  N = 79508
+  mean =    256.553 ±(99.9%) 322.031 ns/op
+
+  Histogram, ns/op:
+    [      0.000,  500000.000) = 79504 
+    [ 500000.000, 1000000.000) = 0 
+    [1000000.000, 1500000.000) = 1 
+    [1500000.000, 2000000.000) = 2 
+    [2000000.000, 2500000.000) = 0 
+    [2500000.000, 3000000.000) = 0 
+    [3000000.000, 3500000.000) = 0 
+    [3500000.000, 4000000.000) = 0 
+    [4000000.000, 4500000.000) = 0 
+    [4500000.000, 5000000.000) = 0 
+    [5000000.000, 5500000.000) = 0 
+    [5500000.000, 6000000.000) = 0 
+    [6000000.000, 6500000.000) = 0 
+    [6500000.000, 7000000.000) = 0 
+    [7000000.000, 7500000.000) = 1 
+
+  Percentiles, ns/op:
+      p(0.0000) =     44.000 ns/op
+     p(50.0000) =     61.000 ns/op
+     p(90.0000) =    123.000 ns/op
+     p(95.0000) =    146.000 ns/op
+     p(99.0000) =    244.910 ns/op
+     p(99.9000) =   9732.192 ns/op
+     p(99.9900) =  59600.134 ns/op
+     p(99.9990) = 7299072.000 ns/op
+     p(99.9999) = 7299072.000 ns/op
+    p(100.0000) = 7299072.000 ns/op
+
+
+# Run complete. Total time: 00:00:53
+
+REMEMBER: The numbers below are just data. To gain reusable insights, you need to follow up on
+why the numbers are the way they are. Use profilers (see -prof, -lprof), design factorial
+experiments, perform baseline and negative tests that provide experimental control, make sure
+the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from the domain experts.
+Do not assume the numbers tell you what you want them to tell.
+
+NOTE: Current JVM experimentally supports Compiler Blackholes, and they are in use. Please exercise
+extra caution when trusting the results, look into the generated code to check the benchmark still
+works, and factor in a small probability of new VM bugs. Additionally, while comparisons between
+different JVMs are already problematic, the performance difference caused by different Blackhole
+modes can be very significant. Please make sure you use the consistent Blackhole mode for comparisons.
+
+Benchmark                            (variant)    Mode    Cnt         Score     Error  Units
+BaselineBenchmark.calculate                  A    avgt      3        22.179 ±  19.252  ns/op
+BaselineBenchmark.calculate                  B    avgt      3        17.934 ±   3.378  ns/op
+BaselineBenchmark.calculate                  C    avgt      3        16.968 ±  19.441  ns/op
+BaselineBenchmark.calculate                  D    avgt      3        36.517 ± 113.928  ns/op
+BaselineBenchmark.calculate                  A  sample  89001       402.557 ± 530.712  ns/op
+BaselineBenchmark.calculate:p0.00            A  sample               37.000            ns/op
+BaselineBenchmark.calculate:p0.50            A  sample               51.000            ns/op
+BaselineBenchmark.calculate:p0.90            A  sample               72.000            ns/op
+BaselineBenchmark.calculate:p0.95            A  sample               98.000            ns/op
+BaselineBenchmark.calculate:p0.99            A  sample              141.000            ns/op
+BaselineBenchmark.calculate:p0.999           A  sample             7895.904            ns/op
+BaselineBenchmark.calculate:p0.9999          A  sample            52959.424            ns/op
+BaselineBenchmark.calculate:p1.00            A  sample         12042240.000            ns/op
+BaselineBenchmark.calculate                  B  sample  79450       319.573 ± 441.406  ns/op
+BaselineBenchmark.calculate:p0.00            B  sample               37.000            ns/op
+BaselineBenchmark.calculate:p0.50            B  sample               51.000            ns/op
+BaselineBenchmark.calculate:p0.90            B  sample               56.000            ns/op
+BaselineBenchmark.calculate:p0.95            B  sample               59.000            ns/op
+BaselineBenchmark.calculate:p0.99            B  sample              102.000            ns/op
+BaselineBenchmark.calculate:p0.999           B  sample             4145.096            ns/op
+BaselineBenchmark.calculate:p0.9999          B  sample            35533.792            ns/op
+BaselineBenchmark.calculate:p1.00            B  sample          9142272.000            ns/op
+BaselineBenchmark.calculate                  C  sample  78497       275.383 ± 335.376  ns/op
+BaselineBenchmark.calculate:p0.00            C  sample               34.000            ns/op
+BaselineBenchmark.calculate:p0.50            C  sample               49.000            ns/op
+BaselineBenchmark.calculate:p0.90            C  sample               60.000            ns/op
+BaselineBenchmark.calculate:p0.95            C  sample               65.000            ns/op
+BaselineBenchmark.calculate:p0.99            C  sample               80.000            ns/op
+BaselineBenchmark.calculate:p0.999           C  sample             4564.144            ns/op
+BaselineBenchmark.calculate:p0.9999          C  sample            68437.542            ns/op
+BaselineBenchmark.calculate:p1.00            C  sample          5693440.000            ns/op
+BaselineBenchmark.calculate                  D  sample  79508       256.553 ± 322.031  ns/op
+BaselineBenchmark.calculate:p0.00            D  sample               44.000            ns/op
+BaselineBenchmark.calculate:p0.50            D  sample               61.000            ns/op
+BaselineBenchmark.calculate:p0.90            D  sample              123.000            ns/op
+BaselineBenchmark.calculate:p0.95            D  sample              146.000            ns/op
+BaselineBenchmark.calculate:p0.99            D  sample              244.910            ns/op
+BaselineBenchmark.calculate:p0.999           D  sample             9732.192            ns/op
+BaselineBenchmark.calculate:p0.9999          D  sample            59600.134            ns/op
+BaselineBenchmark.calculate:p1.00            D  sample          7299072.000            ns/op
+
+Benchmark result is saved to results_baseline.json
